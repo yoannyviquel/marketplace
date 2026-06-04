@@ -8,7 +8,7 @@ indépendamment : ce repo ne porte que le `marketplace.json`.
 ```
 /plugin marketplace add yoannyviquel/marketplace
 /plugin install memory
-/plugin install it-agents
+/plugin install agents
 ```
 
 Mettre à jour un plugin (tire depuis son repo source, ce catalogue n'a pas besoin de changer) :
@@ -22,4 +22,4 @@ Mettre à jour un plugin (tire depuis son repo source, ce catalogue n'a pas beso
 | Plugin | Repo source | Description |
 |---|---|---|
 | `memory` | [yoannyviquel/memory](https://github.com/yoannyviquel/memory) | Mémoire persistante (SQLite local, BM25 + sémantique). |
-| `it-agents` | [yoannyviquel/agents](https://github.com/yoannyviquel/agents) | Agents/skills de développement (dotnet, react, architecte). |
+| `agents` | [yoannyviquel/agents](https://github.com/yoannyviquel/agents) (sous-dossier `it-agents`) | Agents/skills de développement (dotnet, react, architecte). |
