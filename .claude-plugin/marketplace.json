@@ -1,0 +1,21 @@
+{
+  "name": "yoannyviquel",
+  "owner": {
+    "name": "Yoann Yviquel"
+  },
+  "metadata": {
+    "description": "Marketplace Claude Code de Yoann Yviquel — chaque plugin vit dans son propre repo et se met à jour indépendamment du catalogue."
+  },
+  "plugins": [
+    {
+      "name": "memory",
+      "source": { "source": "github", "repo": "yoannyviquel/memory" },
+      "description": "Mémoire persistante Claude Code en SQLite local. Capture via hooks, recherche hybride BM25 (FTS5) + sémantique (sqlite-vec + embeddings locaux transformers.js, q8), migration depuis claude-mem. Embarqué : zéro serveur, zéro démon, zéro cloud."
+    },
+    {
+      "name": "it-agents",
+      "source": { "source": "github", "repo": "yoannyviquel/agents", "path": "it-agents" },
+      "description": "Agents de développement spécialisés (skills) : dotnet-developer, react-developer (implémentation, tests, revue) et code-architect (conception d'architecture par design patterns GoF, ADR, plan de dev Claude Code)."
+    }
+  ]
+}
