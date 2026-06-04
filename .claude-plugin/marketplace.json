@@ -18,9 +18,9 @@
       "description": "Agents de développement spécialisés (skills) : dotnet-developer, react-developer (implémentation, tests, revue) et code-architect (conception d'architecture par design patterns GoF, ADR, plan de dev Claude Code)."
     },
     {
-      "name": "on-premise-azure-devops",
-      "source": { "source": "git-subdir", "url": "https://github.com/yoannyviquel/on-premise-azure-devops.git", "path": ".", "ref": "main" },
-      "description": "Serveur MCP TFS/Azure DevOps on-premise (Node/TypeScript, stdio) — work items, builds, pull requests, repos, branches, releases."
+      "name": "microsoft-tfs",
+      "source": { "source": "git-subdir", "url": "https://github.com/yoannyviquel/microsoft-tfs.git", "path": ".", "ref": "main" },
+      "description": "Serveur MCP Microsoft TFS on-premise (Node/TypeScript, stdio) — work items, builds, pull requests, repos, branches, releases."
     },
     {
       "name": "consumption-status-bar",
