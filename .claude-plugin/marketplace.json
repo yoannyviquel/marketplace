@@ -16,6 +16,16 @@
       "name": "agents",
       "source": { "source": "git-subdir", "url": "https://github.com/yoannyviquel/agents.git", "path": "it-agents", "ref": "main" },
       "description": "Agents de développement spécialisés (skills) : dotnet-developer, react-developer (implémentation, tests, revue) et code-architect (conception d'architecture par design patterns GoF, ADR, plan de dev Claude Code)."
+    },
+    {
+      "name": "on-premise-azure-devops",
+      "source": { "source": "github", "repo": "yoannyviquel/on-premise-azure-devops" },
+      "description": "Serveur MCP TFS/Azure DevOps on-premise (Node/TypeScript, stdio) — work items, builds, pull requests, repos, branches, releases."
+    },
+    {
+      "name": "consumption-status-bar",
+      "source": { "source": "github", "repo": "yoannyviquel/consumption-status-bar" },
+      "description": "Status line à barres de progression dégradé vert→rouge pour la fenêtre de contexte et les quotas 5h / 7j. Lancer /install-statusline une fois pour l'activer (truecolor + node + bash requis)."
     }
   ]
 }
