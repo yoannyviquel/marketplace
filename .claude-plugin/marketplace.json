@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "memory",
-      "source": { "source": "git", "url": "https://github.com/yoannyviquel/memory.git" },
+      "source": { "source": "git-subdir", "url": "https://github.com/yoannyviquel/memory.git", "path": ".", "ref": "main" },
       "description": "Mémoire persistante Claude Code en SQLite local. Capture via hooks, recherche hybride BM25 (FTS5) + sémantique (sqlite-vec + embeddings locaux transformers.js, q8), migration depuis claude-mem. Embarqué : zéro serveur, zéro démon, zéro cloud."
     },
     {
@@ -19,12 +19,12 @@
     },
     {
       "name": "on-premise-azure-devops",
-      "source": { "source": "git", "url": "https://github.com/yoannyviquel/on-premise-azure-devops.git" },
+      "source": { "source": "git-subdir", "url": "https://github.com/yoannyviquel/on-premise-azure-devops.git", "path": ".", "ref": "main" },
       "description": "Serveur MCP TFS/Azure DevOps on-premise (Node/TypeScript, stdio) — work items, builds, pull requests, repos, branches, releases."
     },
     {
       "name": "consumption-status-bar",
-      "source": { "source": "git", "url": "https://github.com/yoannyviquel/consumption-status-bar.git" },
+      "source": { "source": "git-subdir", "url": "https://github.com/yoannyviquel/consumption-status-bar.git", "path": ".", "ref": "main" },
       "description": "Status line à barres de progression dégradé vert→rouge pour la fenêtre de contexte et les quotas 5h / 7j. Lancer /install-statusline une fois pour l'activer (truecolor + node + bash requis)."
     }
   ]
