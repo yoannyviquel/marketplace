@@ -23,8 +23,8 @@
       "description": "Serveur MCP Microsoft TFS on-premise (Node/TypeScript, stdio) — work items, builds, pull requests, repos, branches, releases."
     },
     {
-      "name": "consumption-status-bar",
-      "source": { "source": "url", "url": "https://github.com/yoannyviquel/consumption-status-bar.git", "ref": "main" },
+      "name": "status-bar",
+      "source": { "source": "url", "url": "https://github.com/yoannyviquel/status-bar.git", "ref": "main" },
       "description": "Status line à barres de progression dégradé vert→rouge pour la fenêtre de contexte et les quotas 5h / 7j. Lancer /install-statusline une fois pour l'activer (truecolor + node + bash requis)."
     }
   ]
