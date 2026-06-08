@@ -14,8 +14,8 @@
     },
     {
       "name": "agents",
-      "source": { "source": "git-subdir", "url": "https://github.com/yoannyviquel/agents.git", "path": "it-agents", "ref": "main" },
-      "description": "Agents de développement spécialisés (skills) : dotnet-developer, react-developer (implémentation, tests, revue) et code-architect (conception d'architecture par design patterns GoF, ADR, plan de dev Claude Code)."
+      "source": { "source": "url", "url": "https://github.com/yoannyviquel/agents.git", "ref": "main" },
+      "description": "Agents de développement spécialisés (skills) : dotnet-developer, react-developer, ios-game-developer (implémentation, tests, revue) et code-architect (conception d'architecture par design patterns GoF, ADR, plan de dev Claude Code)."
     },
     {
       "name": "microsoft-tfs",
