@@ -23,3 +23,5 @@ Mettre à jour un plugin (tire depuis son repo source, ce catalogue n'a pas beso
 |---|---|---|
 | `memory` | [yoannyviquel/memory](https://github.com/yoannyviquel/memory) | Mémoire persistante (SQLite local, BM25 + sémantique). |
 | `agents` | [yoannyviquel/agents](https://github.com/yoannyviquel/agents) (sous-dossier `it-agents`) | Agents/skills de développement (dotnet, react, architecte). |
+| `microsoft-tfs` | [yoannyviquel/microsoft-tfs](https://github.com/yoannyviquel/microsoft-tfs) | Serveur MCP Microsoft TFS on-premise (Node/TS, stdio) : work items, builds, pull requests, repos, branches, releases. |
+| `status-line` | [yoannyviquel/status-line](https://github.com/yoannyviquel/status-line) | Status line powerline (dégradé vert→rouge) : contexte, quotas 5h/7j, dir, branche. `/install-statusline` une fois. |
